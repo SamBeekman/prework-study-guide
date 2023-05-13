@@ -3,12 +3,18 @@
     padding: 0;    
 }
 
-header,
-footer {
+header {
     width: 100%;
     height: 120px;
-    background-color: blue;
-    color: white;
+    background-color: #121633;
+    color: #af5216;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #121633;
+    color: #ffffff;
 }
 
 h1,
@@ -32,11 +38,12 @@ ul{
 p {
     text-align: center;
     font-size: 30px;
+    padding: 12px;
 }
 
 .card {
     width: 80%;
     margin: 40px auto;
-    border: 5px solid gray;
-    box-shadow: 5px 10px #888888;
+    border: 5px solid #121633;
+    box-shadow: 12px 8px #af5216;
 }
